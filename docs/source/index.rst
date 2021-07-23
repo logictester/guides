@@ -620,7 +620,7 @@ IDPrime Virtual is currently working on Windows and Linux. On the client side yo
 
 	- **IDPrime Virtual Client (IDPV Client)**
             This client is visible as a tray icon and allows you to connect to and disconnect from the IDPrime Virtual Server to make your virtual smart card visible in your operating system.
-	    
+
 For the IDPV Client installation, the **URL of IDPrime Virtual Server** and the **Tenant ID** are required:
 
 .. thumbnail:: /images/Picture7.png
@@ -637,8 +637,7 @@ After the installation of the client you can find the **configuration settings**
 
 You can download a WORKSHEET document to help you fill in the requiered details here: :download:`IDPV WORKSHEET </pdf/IDPV_WORKSHEET.docx>`
 
-.. important:: To use the Offline mode, it is needed at least one crypto operation with the virtual card, for example sign a document. To check if it working,
-check the C:\ProgramData\Thales\IDPrimeVirtual. You should have a folder for each card the user has. Inside the folder, there are 3 files: Hg / Uc / Ud. 
+.. important:: To use the Offline mode, it is required to perform at least one crypto operation with the virtual card, for example sign a document. To check if it is working, check the C:\ProgramData\Thales\IDPrimeVirtual. You should have a folder for each card the user has. Inside the folder, there are 3 files: Hg / Uc / Ud. 
 
 Watch the following video to see the user experience when using IDPrime Virtual solution:
 
