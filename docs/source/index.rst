@@ -313,11 +313,11 @@ Download and unpack the DPoD client in your “dpod” folder and deploy a copy 
 
 ::
 
-    mkdir –p /var/thales/hsm
+    mkdir -p /var/thales/hsm
 
 ::
 
-    cp –r * /var/thales/hsm/
+    cp -r * /var/thales/hsm/
 
 .. note:: Keeping a copy of the DPoD files outside the “/var/thales/hsm” folder allows running the HSM tools independently from the Docker instance (due to different configuration paths in the “Chrystoki.conf” instances).
 
@@ -333,7 +333,7 @@ To **initialize the DPoD instance** you have to perform the following steps:
 
 		::
 
-	   	    /bin/64/lunacm
+	   	    ./bin/64/lunacm
 
 		::
 
